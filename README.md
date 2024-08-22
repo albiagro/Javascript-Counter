@@ -14,32 +14,30 @@ No prerequisites needed.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* No installation needed. Just go to https://albiagro.github.io/javascript-counter/
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Just click on "+" or "-" to increase/decrease the value
+* The value cannot be less than 0
+* Refreshing the page the value will be back to 0
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Any advise for common problems or issues:
+
+Visit https://albiagro.github.io/pages/contacts/
 
 ## Authors
 
-Contributors names and contact info
+Contributors names and contact info:
 
 Alberto Agrò (https://albiagro.github.io/)
 
 ## Version History
 
+* 0.3
+    * Creation of Readme file
 * 0.2
     * Various bug fixes and optimizations
     * See [commit change]() or See [release history]()

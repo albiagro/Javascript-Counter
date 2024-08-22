@@ -1,3 +1,4 @@
+// Creation of DOM
 let btnDecrease = document.createElement("button");
 btnDecrease.id = "btnDecrease"
 btnDecrease.innerHTML = "-"

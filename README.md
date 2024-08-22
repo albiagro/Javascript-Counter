@@ -20,7 +20,7 @@ No prerequisites needed.
 
 * Just click on "+" or "-" to increase/decrease the value
 * The value cannot be less than 0
-* Refreshing the page the value will be back to 0
+* Refreshing or clicking the reset button the page the value will be back to 0
 
 ## Help
 

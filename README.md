@@ -1,3 +1,5 @@
+<img src= "img/alberto.png"></img>
+
 # Project Title
 
 Javascript Counter

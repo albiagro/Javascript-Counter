@@ -4,11 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <link rel='stylesheet' href='./css/styles.css'/>
-    <script src="./js/CreateInitialDOM.js" defer></script>
-    <script src="./js/UpdateAndDisplayValue.js" defer></script>
-    </head>
-    <body>
-        <h1>Counter</h1>
-    </body>
+
+    <!-- OG Tags-->
+    <meta property="og:title" content="Alberto Agrò's Javascript Counter" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://albiagro.github.io/img/AlbertoAgro.jpg" />
+    <meta property="og:url" content="https://albiagro.github.io/" />
+
+    <title>Alberto Agrò | Homepage</title>
+    <meta name="description" content="Alberto Agrò, software developer, driven by dedication and motivation, seeking challenges to grow, learn, and innovate in every project.">
+    <meta name="robots" content="index, follow">
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/idea.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- My CSS -->
+    <link rel='stylesheet' href='css/styles.css'/>
+    <link rel='stylesheet' href='css/declarations.css'/>
+    <!-- My font -->
+    <link href="https://fonts.cdnfonts.com/css/sugo-pro-classic" rel="stylesheet">
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js" defer></script>
+    <!-- Custom scripts -->
+    <script src="js/CreateInitialDOM.js" defer></script>
+    <script src="js/UpdateAndDisplayValue.js" defer></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" id="header">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <a class="navbar-brand me-2" href="../../../">
+          <img
+            src="../../../img/alberto.png"
+            height="115"
+            alt="My logo"
+            loading="lazy"
+            style="margin-top: -1px;"
+          />
+        </a>
+    </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="../../..">Home</a>
+            </li>
+          </ol>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+
+      <div class="background" id="background">
+        <div class="card text-center">
+          <div class="card-body" id="card-body">
+            <h3 class="card-title">Counter</h3>
+            <p class="card-text">Click + or - to increase or decrease the counter.</p>     
+            <div class="container" id="container"></div><br>
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with me on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.instagram.com/albiagro/" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/alberto-agrò-0a425912a" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/albiagro" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+</footer>
+<!-- Footer -->
+        <!-- End your project here-->
+  </body>
 </html>

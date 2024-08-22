@@ -1,12 +1,49 @@
 
-
-button, p {
-  display: inline; 
-  width: 50px;
-  height: 50px;
-  padding: 5px;
+body {
+  font-family: var(--SugoFont);
+  font-size:20px;
+  color: var(--Blue);
 }
 
-p {
-  padding: 0 20px 0 20px;
+#header {
+  background: var(--OrangeGradient);
+}
+
+#pValue {
+  padding: 0 50px 0 50px;
+  display:inline;
+  line-height: 55px;
+  height:55px;
+  margin: 0px;
+  display: inline-table;
+  vertical-align: middle;
+}
+
+.card {
+  margin: auto;
+  width:50%;
+  top:30%;
+}
+
+#btnIncrease, #btnDecrease {
+  background: var(--OrangeGradient);
+  font-size: 25px;
+}
+
+#btnReset {
+  background: var(--OrangeGradient);
+  font-size: 15px;
+}
+
+.background {
+  background-image: var(--BackgroundMobileTransparent);
+  height: 80vh;
+}
+
+@media screen and (min-width:500px) {
+  .background {
+    background-image: var(--BackgroundDesktopTransparent);
+    height: 80vh;
+  }
+  
 }
